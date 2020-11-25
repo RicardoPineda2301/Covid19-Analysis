@@ -8,8 +8,10 @@ import altair as alt
 
 from sqlalchemy import create_engine
 
+st.title("Casos de coronavirus")
+
 # create sqlalchemy engine
-engine = create_engine("mysql+pymysql://{user}:{pw}@db/{db}"
+engine = create_engine("mysql+pymysql://{user}:{pw}@db:3306/{db}"
                        .format(user="test",
                                pw="test123",
                                db="test"))
@@ -33,7 +35,7 @@ data3['Fecha'] =  pd.to_datetime(data3['Fecha'])
 DATE_TIME = "Fecha"
 
 
-st.title("Casos de coronavirus")
+
 
 hour_selected = st.date_input("Seleccione fecha",data['Fecha'].min(),  data['Fecha'].min(), data['Fecha'].max())
 
