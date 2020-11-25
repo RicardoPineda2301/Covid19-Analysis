@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.6'
 services:
     postgres:
         image: postgres:9.6
@@ -10,7 +10,6 @@ services:
             options:
                 max-size: 10m
                 max-file: "3"
-
     webserver:
         build: .
         restart: always
@@ -25,6 +24,7 @@ services:
                 max-file: "3"
         volumes:
             - ./dags:/usr/local/airflow/dags
+            - ./archivos:/home/airflow/monitor
             # - ./plugins:/usr/local/airflow/plugins
         ports:
             - "8080:8080"
@@ -34,17 +34,21 @@ services:
             interval: 30s
             timeout: 30s
             retries: 3
-
+   
+    streamlit:
+        build: frontend
+        ports: 
+          - "8501:8501"
+        volumes: 
+          - "./src:/usr/src/app/src"
     db:
         image: mysql:5.7
-        volumes:
-            - ./db_data:/var/lib/mysql
-            - ./script/schema.sql:/docker-entrypoint-initdb.d/1.sql
         restart: always
         ports:
-            - 3306:3306
+            - "8081:3306"
         environment:
             MYSQL_ROOT_PASSWORD: test123
             MYSQL_DATABASE: test
             MYSQL_USER: test
             MYSQL_PASSWORD: test123
+    

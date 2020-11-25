@@ -9,10 +9,10 @@ import altair as alt
 from sqlalchemy import create_engine
 
 # create sqlalchemy engine
-engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
-                       .format(user="root",
-                               pw="Bruno14",
-                               db="finaldp"))
+engine = create_engine("mysql+pymysql://{user}:{pw}@db/{db}"
+                       .format(user="test",
+                               pw="test123",
+                               db="test"))
 
 
 #df = pd.read_csv("proyecto/time_series_covid19_confirmed_global.csv").rename(columns= {'Lat': 'lat', 'Long': 'lon'})
