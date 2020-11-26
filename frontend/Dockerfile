@@ -9,4 +9,4 @@ COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 EXPOSE 8501
-CMD ["streamlit", "run", "proyecto.py", "--server.enableWebsocketCompression=false"]
+CMD ["streamlit", "run", "proyecto.py", "--server.enableCORS=false"]

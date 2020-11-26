@@ -37,7 +37,7 @@ DATE_TIME = "Fecha"
 
 
 
-hour_selected = st.date_input("Seleccione fecha",data['Fecha'].min(),  data['Fecha'].min(), data['Fecha'].max())
+hour_selected = st.date_input(label="Seleccione fecha", value=data['Fecha'].min(),  min_value=data['Fecha'].min(),  max_value=data['Fecha'].max())
 
 paises = st.multiselect(
      '¿Qué países es?',
