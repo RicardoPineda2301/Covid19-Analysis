@@ -11,13 +11,13 @@ Todo es realizado en un docker-compose para facilitar la comunicación entre los
 
 ## Herramientas
 
-- Streamlit: Para hacer los dashboards
+- **Streamlit:** Para hacer los dashboards
 
-- MySQL: Base de Datos
+- **MySQL:** Base de Datos
 
-- Airflow: Scheduler y Monitor de workflow
+- **Airflow:** Scheduler y Monitor de workflow
 
-- Docker: Contenerización y comunicación entre herramientas
+- **Docker:** Contenerización y comunicación entre herramientas
 
 ### Instalación | Herramientas
 
