@@ -2,7 +2,7 @@
 
 Streamlit             |  Airflow  | MySQL
 :-------------------------:|:-------------------------:|:-------------------------:|
-![Streamlit](https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182db827fa0659541754_RGB_Logo_Vertical_Color_Light_Bg.png) |   ![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png) |  ![MySQL](https://assets.stickpng.com/images/58481057cef1014c0b5e4951.png)
+![Streamlit](https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182db827fa0659541754_RGB_Logo_Vertical_Color_Light_Bg.png) |   ![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png) |  ![MySQL](https://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png)
 ## Descripción
  
 
