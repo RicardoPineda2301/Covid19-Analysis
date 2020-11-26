@@ -11,12 +11,21 @@ Todo es realizado en un docker-compose para facilitar la comunicación entre los
 
 ## Herramientas
 
+- Streamlit: Para hacer los dashboards
+
+- MySQL: Base de Datos
+
+- Airflow: Scheduler y Monitor de workflow
+
+- Docker: Contenerización y comunicación entre herramientas
 
 ### Instalación | Herramientas
 
+Dada la naturaleza del proyecto, y que todo está hecho en docker, lo único necesario es tener Docker y Docker-compose instalado.
 
-### Uso | Herramientas
+Para ello, puede encontrar una guía para cada Sistema Operativo [aquí](https://docs.docker.com/get-docker/)
 
+Luego, puede clonar o descargar este repositorio y seguir las siguientes instrucciones:
 
 # Instrucciones para correr el código
 
