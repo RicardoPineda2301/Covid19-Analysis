@@ -1,13 +1,11 @@
 # DockerCompose × (Airflow + MySQl + Streamlit)
-El proyecto que consiste en realizar un ETL en Airflow, que almacenará los datos en una base de datos MySQL que posteriormente será leída por Python para realizar un dashboard interactivo en Streamlit sobre los casos de Coronavirus.
 
 Streamlit             |  Airflow  | MySQL
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![Streamlit](https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e181828ba9f9e92b6ebc6e7_RGB_Logomark_Color_Light_Bg.png) |   ![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png) |  ![MySQL](https://www.gibranjacobo.com/img/language/mysql.png)
 ## Descripción
 
-El proyecto consiste en un ETL que toma tres archivos en formato CSV, los inserta en la base de datos de MySQL, y utilizando las tablas generadas, se hace un Dashboard en Streamlit que permite la correcta visualización e interpretación de la data.
-Todo es realizado en un docker-compose para facilitar la comunicación entre los distintos servicios.
+El proyecto que consiste en realizar un ETL en Airflow, que almacenará los datos en una base de datos MySQL que posteriormente será leída por Python para realizar un dashboard interactivo en Streamlit sobre los casos de Coronavirus.
 
 ## Herramientas
 
