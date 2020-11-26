@@ -34,16 +34,20 @@ Primero, descarga este código. Recuerda que el proyecto fue hecho en Docker Too
 ## Docker
 
 Hacer cd a la carpeta frontend
-> cd frontend
+
+  ```cd frontend```
 
 Luego crear la imagen 
-> docker build -f Dockerfile -t app:latest .
+
+  ```docker build -f Dockerfile -t app:latest . ```
 
 Después volver a la carpeta original
-> cd ..
+
+  ``` cd .. ```
 
 Y allí hacer el docker-compose
-> docker-compose up
+
+  ``` docker-compose up ```
 
 ## Airflow
 
